@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001512"
+    tools:context=".HomeActivity">
+
+  <ImageView
+      android:id="@+id/imageView10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="728dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/rectangle_9" />
+
+  <ImageButton
+      android:id="@+id/imageButton10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="4dp"
+      android:background="@drawable/noborder"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/imageView10"
+      app:layout_constraintHorizontal_bias="0.152"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imageView10"
+      app:layout_constraintVertical_bias="0.555"
+      app:srcCompat="@drawable/vector_1" />
+
+  <ImageButton
+      android:id="@+id/imageButton11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:background="@drawable/noborder"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imageView10"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/homepng" />
+
+  <ImageButton
+      android:id="@+id/imageButton12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/noborder"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/imageView10"
+      app:layout_constraintHorizontal_bias="0.89"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imageView10"
+      app:layout_constraintVertical_bias="0.483"
+      app:srcCompat="@drawable/vector_3" />
+
+  <ImageButton
+      android:id="@+id/imageButton13"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/noborder"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.701"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imageView10"
+      app:layout_constraintVertical_bias="0.483"
+      app:srcCompat="@drawable/vector5" />
+
+  <ImageButton
+      android:id="@+id/imageButton14"
+      android:layout_width="32dp"
+      android:layout_height="21dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/noborder"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.311"
+      app:layout_constraintStart_toStartOf="@+id/imageView10"
+      app:layout_constraintTop_toTopOf="@+id/imageView10"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/vector_4" />
+
+  <ImageButton
+      android:id="@+id/imageButton3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="42dp"
+      android:layout_marginLeft="42dp"
+      android:layout_marginEnd="42dp"
+      android:layout_marginRight="42dp"
+      android:background="@drawable/noborder"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/imageButton13"
+      app:layout_constraintStart_toEndOf="@+id/imageButton14"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/vectorsvg" />
+
+  <!--  <TextView-->
+  <!--      android:id="@+id/textView"-->
+  <!--      android:layout_width="39dp"-->
+  <!--      android:layout_height="21dp"-->
+  <!--      android:layout_marginTop="204dp"-->
+  <!--      android:alpha="@dimen/activity_horizontal_margin"-->
+  <!--      android:background="#00FFFFFF"-->
+  <!--      android:text="Hello"-->
+  <!--      android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+  <!--      android:textColor="#00BCD4"-->
+  <!--      app:layout_constraintEnd_toEndOf="parent"-->
+  <!--      app:layout_constraintStart_toStartOf="parent"-->
+  <!--      app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

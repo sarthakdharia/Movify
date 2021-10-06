@@ -84,7 +84,7 @@
         app:srcCompat="@drawable/bg" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/ConfirmPassword"
         android:layout_width="231dp"
         android:layout_height="44dp"
         android:ems="10"
@@ -137,14 +137,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/UserName"
         app:layout_constraintHorizontal_bias="0.702"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
         app:layout_constraintTop_toTopOf="@+id/imageView13"
         app:srcCompat="@drawable/user" />
 
     <Button
-        android:id="@+id/login_btn"
+        android:id="@+id/register_btn"
         android:layout_width="300dp"
         android:layout_height="65dp"
         android:background="@drawable/registerbtn"
@@ -182,7 +182,7 @@
         app:srcCompat="@drawable/bg" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/UserName"
         android:layout_width="231dp"
         android:layout_height="46dp"
         android:ems="10"

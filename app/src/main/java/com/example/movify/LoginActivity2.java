@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -35,8 +33,8 @@ public class LoginActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login2);
         final EditText email = findViewById(R.id.EmailAddress);
-        final EditText password = findViewById(R.id.password);
-        Button login = findViewById(R.id.login_btn);
+        final EditText password = findViewById(R.id.Password);
+        Button login = findViewById(R.id.register_btn);
         mAuth = FirebaseAuth.getInstance();
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,11 +47,12 @@ public class LoginActivity2 extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
-                            Toast.makeText(LoginActivity2.this,"You are successfully Registered", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity2.this,"Login successful", Toast.LENGTH_SHORT).show();
+                            openHomeActivity();
                         }
                         else
                         {
-                            Toast.makeText(LoginActivity2.this,"You are not Registered! Try again",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity2.this,"Login Failed! Try again",Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -62,6 +61,12 @@ public class LoginActivity2 extends AppCompatActivity {
         });
 
     }
+
+    private void openHomeActivity() {
+        Intent intent = new Intent(this, HomePageActivity.class);
+        startActivity(intent);
+    }
+
     public void btnBack(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

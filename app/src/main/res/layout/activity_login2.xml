@@ -106,7 +106,7 @@
         app:srcCompat="@drawable/password" />
 
     <Button
-        android:id="@+id/login_btn"
+        android:id="@+id/register_btn"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_button3"
@@ -126,7 +126,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="8dp"
         android:text="Remember Me"
-        app:layout_constraintBottom_toTopOf="@+id/login_btn"
+        app:layout_constraintBottom_toTopOf="@+id/register_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.251"
         app:layout_constraintStart_toStartOf="parent"
