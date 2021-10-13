@@ -25,6 +25,6 @@
     <fragment
         android:id="@+id/newsFragment"
         android:name="com.example.movify.NewsFragment"
-        android:label="news_fragment"
+        android:label="@string/title_news"
         tools:layout="@layout/news_fragment" />
 </navigation>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/homesvg"
+        android:title="@string/title_home" />
 
     <item
         android:id="@+id/navigation_news"
@@ -8,14 +13,7 @@
         android:title="@string/title_news" />
 
 
-    <item
-        android:id="@+id/navigation_save"
-        android:icon="@drawable/saved"
-        android:title="@string/title_saved" />
-    <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/homesvg"
-        android:title="@string/title_home" />
+
     <item
         android:id="@+id/navigation_explor"
         android:icon="@drawable/vectorsvg"

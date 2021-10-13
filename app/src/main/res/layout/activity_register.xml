@@ -88,7 +88,6 @@
         android:layout_width="231dp"
         android:layout_height="44dp"
         android:ems="10"
-        android:inputType="numberPassword"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.2"
