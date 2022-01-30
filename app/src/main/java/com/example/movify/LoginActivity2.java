@@ -62,7 +62,7 @@ public class LoginActivity2 extends AppCompatActivity {
 
     }
 
-    private void openHomeActivity() {
+    private void openHomeActivity(){
         Intent intent = new Intent(this, HomePageActivity.class);
         startActivity(intent);
     }
@@ -70,6 +70,5 @@ public class LoginActivity2 extends AppCompatActivity {
     public void btnBack(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-
     }
 }
