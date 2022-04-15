@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152256802500",
+    "project_id": "movifyminiproject",
+    "storage_bucket": "movifyminiproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152256802500:android:579e4c7bf26b1b2212e391",
+        "android_client_info": {
+          "package_name": "com.example.login_signup_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152256802500-d1097pcml3tep248ni0p6ucbk6t59emr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA960cpWS7FGJxYwu8F9senlRGvVae-nT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152256802500-d1097pcml3tep248ni0p6ucbk6t59emr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
